@@ -13,7 +13,7 @@ Cette ressource dispose de trois fichier sql :
 
 ### Étape 1
 
-Télécharger le dossier contenant les script, puis dans sql developer connectez-vous avec l'utilisateur **sys** exécuter le script **1-ot_create_user.sql** pour créer l'utilisateur OT. Une fois l'utilisateur créée, Créer une nouvelle connexion (![Image](images/1-sqldevelopper.png "Nouvelle connexion")) puis remplir les informations comme vous l'avez fait pour l'utilisateur **sys**  mais en changeant maintenant l'utilisateur par OT et le mot de passe par le mot de passe que vous avez mis lors de la création de l'utilisateur (![Image](images/2-sqldevelopper.png "Saisie des informations")) , puis connectez-vous avec.
+Télécharger le dossier contenant les script, puis dans sql developer connectez-vous avec l'utilisateur **sys** exécuter le script **1-ot_create_user.sql** pour créer l'utilisateur OT. Une fois l'utilisateur créée, Créer une nouvelle connexion (![Image](https://raw.githubusercontent.com/ensa-tetouan/ressources-tp-plsql/main/images/1-sqldevelopper.PNG)) puis remplir les informations comme vous l'avez fait pour l'utilisateur **sys**  mais en changeant maintenant l'utilisateur par OT et le mot de passe par le mot de passe que vous avez mis lors de la création de l'utilisateur (![Image](https://raw.githubusercontent.com/ensa-tetouan/ressources-tp-plsql/main/images/2-sqldevelopper.PNG)) , puis connectez-vous avec.
 
 ### Étape 2
 Exécuter le code du script **2-ot_schema.sql** pour créer les tables

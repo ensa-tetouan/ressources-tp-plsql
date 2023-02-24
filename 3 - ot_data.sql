@@ -3,7 +3,7 @@
 -- Link	       : http://www.oracletutorial.com/oracle-sample-database/
 -- Version     : 1.0
 -- Last Updated: July-28-2017
--- Copyright   : Copyright © 2017 by www.oracletutorial.com. All Rights Reserved.
+-- Copyright   : Copyright Â© 2017 by www.oracletutorial.com. All Rights Reserved.
 -- Notice      : Use this sample database for the educational purpose only.
 --               Credit the site oracletutorial.com explitly in your materials that
 --               use this sample database.
@@ -83,7 +83,7 @@ Insert into OT.LOCATIONS (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID)
 Insert into OT.LOCATIONS (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID) values (20,'20 Rue des Corps-Saints','1730','Geneva','Geneve','CH');
 Insert into OT.LOCATIONS (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID) values (21,'Murtenstrasse 921','3095','Bern','BE','CH');
 Insert into OT.LOCATIONS (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID) values (22,'Pieter Breughelstraat 837','3029SK','Utrecht','Utrecht','NL');
-Insert into OT.LOCATIONS (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID) values (23,'Mariano Escobedo 9991','11932','Mexico City','Distrito Federal,','MX');
+Insert into OT.LOCATIONS (LOCATION_ID,ADDRESS,POSTAL_CODE,CITY,STATE,COUNTRY_ID) values (23,'Mariano Escobedo 9991','11932','Mexico City','Distrito Federal','MX');
 
 REM INSERTING into OT.WAREHOUSES
 SET DEFINE OFF;

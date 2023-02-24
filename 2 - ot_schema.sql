@@ -3,7 +3,7 @@
 -- Link	       : http://www.oracletutorial.com/oracle-sample-database/
 -- Version     : 1.0
 -- Last Updated: July-28-2017
--- Copyright   : Copyright © 2017 by www.oracletutorial.com. All Rights Reserved.
+-- Copyright   : Copyright Â© 2017 by www.oracletutorial.com. All Rights Reserved.
 -- Notice      : Use this sample database for the educational purpose only.
 --               Credit the site oracletutorial.com explitly in your materials that
 --               use this sample database.
@@ -154,7 +154,7 @@ CREATE TABLE order_items
     order_id   NUMBER( 12, 0 )                                , -- fk
     item_id    NUMBER( 12, 0 )                                ,
     product_id NUMBER( 12, 0 ) NOT NULL                       , -- fk
-    quantity   NUMBER( 8, 2 ) NOT NULL                        ,
+    quantity   NUMBER( 8, 0 ) NOT NULL                        ,
     unit_price NUMBER( 8, 2 ) NOT NULL                        ,
     CONSTRAINT pk_order_items 
       PRIMARY KEY( order_id, item_id ),
